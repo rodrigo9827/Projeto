@@ -1,0 +1,1 @@
+aqui é como sefosse o código fonte do programa
