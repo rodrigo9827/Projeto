@@ -1,3 +1,7 @@
-este é o aprendizado de uma aula de git
+desenvolvimento do projeto.
 
-Esta é uma altração dentro do "readme.md"
+passo 1 lógica da programação 
+
+Criar chat bot 
+integração com o google agenda
+Sincronização de menssagens com google agenda
