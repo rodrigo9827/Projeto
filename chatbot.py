@@ -6,4 +6,14 @@ import time
 
 #Abrir o navegador
 navegador = webdriver.Chrome() 
-time.sleep(10)
+#colocar o navegador em tella cheia
+navegador.maximize_window()
+#abrir o whatsapp web
+navegador.get('https://www.hashtagtreinamentos.com/')
+#Tempo para o usuario escanear o QR code
+time.sleep(20)
+# selecionar um elemento na tela
+navegador.find_element('class name', 'botao-verde').click()
+
+#tempo para fechar o navegador apos o uso
+time.sleep(50)
